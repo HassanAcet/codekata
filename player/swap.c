@@ -1,17 +1,18 @@
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
-void main(){
-     char str[20],tmp;
-     int i,j;
+#include <conio.h>
+void main()
+{
+     char str[20],temp;
+     int a,b;
      clrscr();
      printf("\nEnter a string : ");
      scanf("%s",str);
      printf("\n\nOriginal String     : %s",str);
-     for(i=0;i<strlen(str);i=i+2){
-     tmp = str[i];
-     str[i] = str[i+1];
-     str[i+1] = tmp;
+     for(a=0;a<strlen(str);a=a+2){
+     temp = str[a];
+     str[a] = str[a+1];
+     str[a+1] = temp;
      }
      printf("\nAfter Swap String      : %s",str);
      getch();
