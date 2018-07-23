@@ -1,12 +1,12 @@
-a=int(input())
-b=int(input())
-c=0
+A=int(input())
+B=int(input())
+C=0
 while True:
-    a=a+1
-    if a%2==0:
-        d=0
-    elif a>=b:
+    A=A+1
+    if A%2==0:
+        H=0
+    elif A>=B:
         break
     else:
-        c+=1
-print(c)
+        C+=1
+print(C)
